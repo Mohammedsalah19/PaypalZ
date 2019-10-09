@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewBag.Title = "PayPal";
+}
+
+<h2>Month Subscription</h2>
+
+<center>
+    <h4>You can Use this info</h4>
+    <h5> Email: <span style="color:cornflowerblue"> sb-lza28357327@personal.example.com </span> </h5>
+    <h5>   Password: <span style="color:cornflowerblue"> NsJF#)9u </span> </h5>
+    <br />
+    <div style="border:4px solid #808080">
+        <form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" target="_blank" style="padding:10px">
+            <input type="hidden" name="cmd" value="_s-xclick">
+            <table>
+                <tr>
+                    <td>
+                        <select name="os0" class="form-control">
+                            <option value="1 Month">1 Month $20.00 USD</option>
+                            <option value="2 Month">2 Month $40.00 USD</option>
+                            <option value="3 Month">3 Month $65.00 USD</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <br />
+            <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+            <input type="image" src="https://www.sandbox.paypal.com/en_US/i/btn/btn_paynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+            <img alt="" border="0" src="https://www.sandbox.paypal.com/en_US/i/scr/pixel.gif" width="1" height="1">
+        </form>
+    </div>
+
+</center>
